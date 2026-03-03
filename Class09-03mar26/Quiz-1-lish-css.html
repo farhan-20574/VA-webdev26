@@ -1,74 +1,160 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Orderd List</title>
     <style>
-        #l1{
-            font-weight: bold;
-        }
-        #l2{
-            font-style: italic;
-        }
-        #l3{
-            text-decoration: underline;
-        }
-        #l4{
-            font-style: italic;
-            font-weight: bold;          
-        }
-        #l5{
-            text-decoration: underline;
-            font-weight: bold;
-            
-        }
-        /*quiz # 2*/
-        table{
-            border-collapse: collapse ;
-        }
-        th{
+      #l1 {
+        font-weight: bold;
+      }
+      #l2 {
+        font-style: italic;
+      }
+      #l3 {
+        text-decoration: underline;
+      }
+      #l4 {
+        font-style: italic;
+        font-weight: bold;
+      }
+      #l5 {
+        text-decoration: underline;
+        font-weight: bold;
+      }
+      /*quiz # 2*/
+      table {
+        margin-top: 50px;
+        align-items: center;
+        border: solid 2px;
+        border-collapse: collapse;
+      }
+      th {
+        color: aliceblue;
+        background-color: rgb(107, 107, 107);
+      }
+      td:nth-child(3) {
+        padding: 2px;
+        font-weight: bold;
+      }
+      body {
+      }
+      .box {
+        border: solid 3px;
+        padding: 20px;
+        margin: 40px auto;
+        width: 300px;
+      }
+      button {
+        font-weight: bold;
+      }
 
-        }
+      /*box0 */
+      .box1 {
+        background-color: aquamarine;
+        height: 100px;
+        width: 200px;
+        padding: 30px;
+      }
+      .box2 {
+        margin: 30px;
+        background-color: bisque;
+        height: 100px;
+        width: 200px;
+      }
     </style>
-</head>
-<body>
-
+  </head>
+  <body>
     <h2>Quiz # 1</h2>
     <ol>
-        <li id="l1">bold</li>
-        <li id="l2">italic</li>
-        <li id="l3">underlined</li>
-        <li id="l4">bold+italic</li>
-        <li id="l5">bold+underline</li>
-    </ol><br><hr>
+      <li id="l1">bold</li>
+      <li id="l2">italic</li>
+      <li id="l3">underlined</li>
+      <li id="l4">bold+italic</li>
+      <li id="l5">bold+underline</li>
+    </ol>
+    <br />
+    <hr />
 
     <h2>Quiz # 2</h2>
 
     <table>
-        <tr>
-            <th>Name of Student</th>
-            <th>Roll no.</th>
-        </tr>
-        <tr>
-            <td>Ashfaq</td>
-            <td>4336</td>
-        </tr>
-        <tr>
-            <td>Yaseen</td>
-            <td>5674</td>
-        </tr>
-        <tr>
-            <td>Shafiq</td>
-            <td>5334</td>
-        </tr>
-        <tr>
-            <td>Yahya</td>
-            <td>4374</td>
-        </tr>
+      <tr>
+        <th>Name of Student</th>
+        <th>Roll no.</th>
+        <th>Marks</th>
+      </tr>
+      <tr>
+        <td>Ashfaq</td>
+        <td>4336</td>
+        <td>433</td>
+      </tr>
+      <tr>
+        <td>Yaseen</td>
+        <td>5674</td>
+        <td>674</td>
+      </tr>
+      <tr>
+        <td>Shafiq</td>
+        <td>5334</td>
+        <td>334</td>
+      </tr>
+      <tr>
+        <td>Yahya</td>
+        <td>4374</td>
+        <td>374</td>
+      </tr>
     </table>
+    <br />
+    <hr />
+
+    <h2>Quiz # 3</h2>
+
+    <div class="box">
+      <form action="" method="post">
+        <label for="name">Name:</label><br />
+        <input type="text" placeholder="type you name " /><br /><br />
+        <label for="email">Email:</label><br />
+        <input type="email" placeholder="email" /><br /><br />
+        <label for="password">Password:</label><br />
+        <input
+          type="password"
+          placeholder="type your password here"
+        /><br /><br />
+        <button type="submit">submit</button>
+      </form>
+    </div>
+
+    <br />
+    <hr />
+
+    <h2>Quiz # 4</h2>
+    <div box0>
+      <!-- Padding : is Space inside the element  -->
+      <!-- Margin : Space outside the element  -->
+      <div class="box1">
+        <p>Box 1</p>
+      </div>
+      <div class="box2">
+        <p>Box</p>
+      </div>
+    </div>
+    <br />
+    <hr />
+
+    <h2>Quiz # 5</h2>
+
+    <div >
+   /*
 
 
+text{Total Width} = width + (2 × padding) + (2 × border) + (2 × margin)
 
-</body>
+[
+= 200 + 40 + 10 + 20 = 270px
+]
+        */
+    
+    </div>
+  </body>
 </html>
