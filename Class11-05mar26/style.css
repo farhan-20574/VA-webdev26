@@ -2,7 +2,7 @@ body{
     display: inline-block;
     align-items: center;
 }
-.prod{
+.p{
     display: inline-block;
     background-color: hsla(271, 74%, 64%, 0.648);
     width: 200px;
