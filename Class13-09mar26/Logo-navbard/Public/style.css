@@ -1,4 +1,18 @@
 body {
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar {
+  display: flex;
+  gap: 10px;
+}
+li {
+  list-style: none;
+}
+body {
   font-family: "Roboto", sans-serif;
   text-align: center;
   background-color: #dfeef7;
