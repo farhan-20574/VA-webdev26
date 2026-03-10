@@ -1,0 +1,56 @@
+body {
+  background-color: hsla(273, 67%, 92%, 0.753);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+
+header {
+  background-color: rgb(250, 185, 141);
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 18px;
+  font-weight: bolder;
+  font-size: larger;
+}
+nav {
+  background-color: rgba(250, 185, 141, 0.39);
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  gap: 15px;
+}
+
+nav ul li {
+  padding: 15px 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+ nav ul li:hover{
+    background-color: hsla(273, 67%, 92%, 0.753);
+ }
+
+.container{
+    width: 80%;
+    margin: 30px auto;
+    display: flex;
+    gap: 25px;
+}
+.sidebar{
+    flex:1;
+    background-color: aliceblue;
+}
+.main{
+    background-color: aliceblue;
+    flex: 3;
+}
+footer{
+    text-align: center;
+    background-color: rgb(250, 185, 141);
+    position: sticky ;
+}
