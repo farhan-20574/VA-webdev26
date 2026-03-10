@@ -1,22 +1,41 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Flex display</title>
     <style>
-        .container{
-            display: flexbox;
+        body{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color: white;
         }
+      .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: black;
+        font: white;
+      }
+      .menu {
+        display: flex;
+        list-style: none;
+        gap: 10px;
+        padding: 20px 40px;
+        font: white;
+      }
     </style>
-</head>
-<body>
-<div class="container">
-<div>about</div>
-<div>contact us</div>
-<div> career</div>
-</div>
+  </head>
+  <body>
+    <div class="navbar">
+      <div class="logo"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4iVQEB6DMF-nFQy6nJHL38gNNbeENK7e1tw&s" width="75px">
 
-    
-</body>
+      </div>
+      <ul class="menu">
+        <li>Home</li>
+        <li>Product</li>
+        <li>About</li>
+        <li>Contact us</li>
+      </ul>
+    </div>
+  </body>
 </html>
