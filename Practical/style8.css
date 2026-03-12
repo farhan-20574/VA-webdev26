@@ -1,0 +1,11 @@
+table{
+    border: solid black;
+    border-radius: 8px;
+    border-color: brown;
+    padding:5px;
+    
+    text-align: left;
+    color: blue;
+    border-style: double;
+
+}
